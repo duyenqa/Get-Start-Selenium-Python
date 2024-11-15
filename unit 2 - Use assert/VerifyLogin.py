@@ -16,3 +16,8 @@ def test_login():
 
     passwordField = driver.find_element(By.ID, "customer_password")
     assert passwordField.is_displayed(), "The password textbox is not displayed"
+
+    time.sleep(5)
+    driver.close()
+    driver.quit()
+    print("Done!")
