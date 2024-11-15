@@ -12,7 +12,8 @@ def test_mainMenu():
 
     
     phoneElement = driver.find_element(By.XPATH, "//div[@class='header-support__detail']/span")
-    assert phoneElement == "19006401", f"The {phoneElement} is not match"
+    phoneText = phoneElement.text
+    assert phoneText == "19006401", f"The {phoneElement} is not match"
 
     time.sleep(5)
     driver.close()
