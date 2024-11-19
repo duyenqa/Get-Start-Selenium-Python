@@ -9,7 +9,7 @@
 |find_element(By.CLASS_NAME, "string class")      |Finds the element with the specified class attribute.                               |
 |find_element(By.TAG_NAME, "string tag")          |Finds the element with the specified tag name.                                      |
 |find_element(By.CSS_SELECTOR, ".name_attribute") |Finds the element with the specified CSS Selector.                                  |
-|find_element(By.LINK_TEXT, "string text")        |Finds the element with the specified CSS Selector.                                  |
+|find_element(By.LINK_TEXT, "string text")        |Finds the anchor element with the specified exact text.                             |
 |find_element(By.PARTIAL_LINK_TEXT, "string text")|Finds the element with the specified partial text.                                  |
 |send_keys(value)                                 |It simulates typing the specified value into the element                            |
 |clear()                                          |Clears the text if it’s a text entry element.                                       |
