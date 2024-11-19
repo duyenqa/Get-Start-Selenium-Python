@@ -12,7 +12,7 @@
 |find_element(By.LINK_TEXT, "string text")        |Finds the element with the specified CSS Selector.                                  |
 |find_element(By.PARTIAL_LINK_TEXT, "string text")|Finds the element with the specified partial text.                                  |
 |send_keys(value)                                 |It simulates typing the specified value into the element                            |
-|send_keys(value)                                 |It simulates typing the specified value into the element                            |
+|clear()                                          |Clears the text if it’s a text entry element.                                       |
 |click()                                          |It simulates clicking on the element.                                               |
 |text                                             |Retrieves the text content of the element.                                          |
 |get_attribute(name)                              |Retrieves the value of the specified attribute of the element.                      |
