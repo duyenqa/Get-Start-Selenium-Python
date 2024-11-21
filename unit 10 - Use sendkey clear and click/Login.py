@@ -15,6 +15,7 @@ def test_login():
     emailField.send_keys("demouser@example.com")
 
     passwordField = driver.find_element(By.ID, "password")
+    passwordField.clear()
     passwordField.send_keys("Test@user1")
 
     loginButton = driver.find_element(By.CLASS_NAME, "btnLogin")
